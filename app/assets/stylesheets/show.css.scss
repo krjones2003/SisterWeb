@@ -1,6 +1,9 @@
 /* Calendar 
 */
 
+body {
+	font-family: "Helvetica Neue";
+}
 
 .calendar{
     margin-top: 25px;
@@ -11,10 +14,9 @@
 	margin-bottom: -1px;
 }
 
-.col-md-12{
+.row .col-md-12{
     box-sizing:border-box;
-	border: 1px solid #ccc;
-	margin-top: 0px;
+    border: 1px solid #ccc;
 }
 
 .col-md-12.text-center {
@@ -33,9 +35,8 @@ td.not-month{
 	list-style: none;
 	padding-top: 0px;
 	margin-top: 0px;
-	height: 20px;
+	height: 25px;
     background-color: #ffab00;
-    text: white;
     width:14.342%;
     text-align: center;
     vertical-align: top;
@@ -56,20 +57,19 @@ td.not-month{
 	color: #666;
 }
 
-
 .li-calendar {
     clear: both;
     display: inline-block; 
-	font-size: 13px;
+	font-size: 14px;
 	border-radius: 4px;
 	padding: 5px;
 	line-height: 14px;
-	background: #e4f2f2;
+	background: #b3ecff;
 	border: 1px solid #b5dbdc;
+	text: white;
 }
 
-.ul-calendar .a {
-    color: white;
-	text-decoration: none;
+a {
+    color: #0066ff;
+    text-decoration: none;
 }
- 
